@@ -28,7 +28,7 @@ export default function Home() {
       {/* Featured Content Area */}
       <main className="section-padding" style={{ background: '#fcfdfe', borderTop: '1px solid var(--border)' }}>
         <div className="container">
-          <div style={{ display: 'grid', gridTemplateColumns: '1.2fr 1fr', gap: '3rem', alignItems: 'start' }}>
+          <div className="main-grid">
             {/* Highlights */}
             <div>
               <div style={{ marginBottom: '2.5rem' }}>
@@ -37,7 +37,7 @@ export default function Home() {
                 <p style={{ color: 'var(--secondary)', fontSize: '1.1rem' }}>Our platform provides everything you need to build and scale your digital presence.</p>
               </div>
 
-              <div className="grid" style={{ gridTemplateColumns: '1fr 1fr' }}>
+              <div className="sub-grid">
                 <Card
                   title="Fast Performance"
                   description="Optimized with server-side components and modern rendering techniques for lightning-fast load times."
